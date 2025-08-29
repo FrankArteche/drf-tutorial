@@ -1,0 +1,27 @@
+# Archivos y directorios de entorno virtual
+env/
+venv/
+.venv/
+/.idea/
+__pycache__/
+*.pyc
+*.swp
+*.sqlite3
+
+# Archivos de Django y media
+db.sqlite3
+/media/
+/static_collected/
+.DS_Store
+
+# Archivos de configuración y secretos
+.env
+*.json
+*.yml
+*.yaml
+
+*.log
+/logs/
+/tests/__pycache__/
+
+# Otros
